@@ -1,0 +1,55 @@
+.user-chat-message-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.user-chat-dp {
+    background-color: #30de30;
+    color: #ffffff;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 9px;
+    margin-right: 20px;
+}
+
+.user-chat-details-card {
+    padding-top: 10px;
+}
+
+.user-chat-card {
+    display: flex;
+    flex-direction: row;
+}
+
+.user-chat-username {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: #353333;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-right: 10px;
+}
+
+.user-chat-msg-send-date {
+    font-family: "Roboto";
+    font-size: 10px;
+    color: #5c5656;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    padding-top: 10px;
+}
+
+.user-chat-usermessage {
+    background-color: #ffffff;
+    color: #292c2b;
+    padding: 10px;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}

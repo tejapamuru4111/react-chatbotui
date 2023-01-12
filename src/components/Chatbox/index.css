@@ -1,0 +1,106 @@
+.chat-channel-header-bg-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 0px;
+}
+
+.chat-channel-title-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-channel-title {
+    font-family: "Roboto";
+    font-size: 20px;
+    font-weight: bold;
+    color: #292727;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.chat-channel-description {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #464343;
+    padding-top: 0px;
+}
+
+.chat-channel-members-card {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.chat-channel-members {
+    font-family: "Roboto";
+    font-size: 15px;
+    color: #464343;
+    margin-right: 10px;
+}
+
+.chat-channel-devider {
+    height: 1px;
+    color: #f4e67a;
+}
+
+.chat-channel-message-container {
+    overflow-y: scroll;
+    min-height: 450px;
+    max-height: 450px;
+    list-style-type: none;
+}
+
+.chat-channel-msg-send-card {
+    display: flex;
+    flex-direction: row;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-self: flex-end;
+}
+
+.chat-channel-input-msg-card {
+    background-color: transparent;
+    border: 1px #222222 solid;
+    width: 100%;
+    height: 40px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 18px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 20px;
+}
+
+.chat-channel-input-text {
+    background-color: transparent;
+    border: 0px;
+    width: 100%;
+    height: 100%;
+    margin-right: 10px;
+    color: #222222;
+    font-family: "Roboto";
+    font-size: 17px;
+}
+
+.chat-channel-emoji-button {
+    color: #6d6a0f;
+    font-weight: bold;
+    background-color: transparent;
+    font-size: 20px;
+    border: none;
+}
+
+.chat-channel-send-button {
+    font-size: 10px;
+    font-weight: bold;
+    font-family: "Roboto";
+    border: none;
+    background-color: #07c8416b;
+    color: #181512;border-radius: 20px;
+}
